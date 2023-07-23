@@ -14,6 +14,7 @@
     <!-- cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <script>
         tailwind.config = {
@@ -351,11 +352,38 @@
             </div>
 
         </section>
-
     </main>
-    <footer>
-
-    </footer>
+    <footer class="footer p-10 bg-black text-base-content">
+        <div>
+            <img src="./images/logo.png" alt="">
+            <p class="text-white max-w-xs">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        </div> 
+        <div>
+          <span class="footer-title text-white text-xl font-bold">Usefull Link</span> 
+          <a class="link link-hover text-white">About us</a> 
+          <a class="link link-hover text-white">Contact</a> 
+          <a class="link link-hover text-white">Jobs</a> 
+          <a class="link link-hover text-white">Press kit</a>
+        </div> 
+        <div>
+          <span class="footer-title text-white text-xl font-bold">Contact Now</span> 
+          <a class="link link-hover text-white">Terms of use</a> 
+          <a class="link link-hover text-white">Privacy policy</a> 
+          <a class="link link-hover text-white">Cookie policy</a>
+        </div> 
+        <div>
+          <span class="footer-title text-white text-xl font-bold">Subscribe</span> 
+          <div class="form-control w-80">
+            <label class="label">
+              <span class="label-text text-white">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</span>
+            </label> 
+            <div class="relative">
+              <input type="text" placeholder="Email Address" class="input input-bordered w-full pr-16" /> 
+              <button class="btn bg-first absolute top-0 right-0 rounded-l-none"><i class="fa-regular fa-paper-plane"></i></button>
+            </div>
+          </div>
+        </div>
+      </footer>
 
 </body>
 
