@@ -1,12 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/education.png" type="image/x-icon">
     <title>Legal Justice</title>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'first': '#B68C5A',
+                        'text-color1': '#707070',
+                        'text-color2': '#414040',
+                        'first-bg': 'rgba(231, 111, 81, 0.10)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        * {
+            font-family: 'EB Garamond', serif;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <header class="md:container md:mx-auto px-24">
+        <nav>
+            <div class="navbar bg-base-100 text-color1">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </label>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li class="px-2"><a>Home</a></li>
+                            <li class="px-2"><a>Service</a></li>
+                            <li class="px-2"><a>Cases</a></li>
+                            <li class="px-2"><a>Blog</a></li>
+                            <li class="px-2"><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <img class="w-12" src="./images/business.png" alt="">
+                    <a class="btn btn-ghost normal-case text-4xl font-extrabold">Justice</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li class="px-2 text-xl"><a>Home</a></li>
+                        <li class="px-2 text-xl"><a>Service</a></li>
+                        <li class="px-2 text-xl"><a>Cases</a></li>
+                        <li class="px-2 text-xl"><a>Blog</a></li>
+                        <li class="px-2 text-xl"><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn bg-first normal-case text-white" >Free Consultation</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="md:container md:mx-auto">
+
+    </main>
+    <footer>
+
+    </footer>
+
 </body>
+
 </html>
